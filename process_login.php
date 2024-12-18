@@ -1,8 +1,4 @@
 <?php
-// process_login.php
-// process_login.php
-
-// Pastikan file koneksi database sudah disertakan
 require_once 'db_connection.php';
 
 // Ambil data POST dari form login

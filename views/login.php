@@ -1,4 +1,3 @@
-<!-- views/login.php -->
 <?php
 session_start();
 if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
@@ -38,17 +37,9 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
                     </div>
                 </div>
             </form>
-            <p class="mb-1">
-                <a href="#">I forgot my password</a>
-            </p>
-            <p class="mb-0">
-                <a href="register.php" class="text-center">Register a new membership</a>
-            </p>
         </div>
     </div>
 </div>
-
-<?php include 'layout/footer.php'; ?>
 
 <script>
     $(document).ready(function() {
@@ -74,3 +65,28 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
         });
     });
 </script>
+
+<style>
+    /* Center the login box vertically and horizontally */
+    .login-box {
+        width: 360px;
+        margin: 7% auto;
+    }
+
+    .login-logo a {
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    /* Center the entire page */
+    .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+    }
+
+    body {
+        background-color: #f4f6f9;
+    }
+</style>

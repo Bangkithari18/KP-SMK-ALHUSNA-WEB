@@ -5,38 +5,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
+    <title>Admin Dashboard</title>
+
+    <!-- Bootstrap CSS (via CDN) -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
     <!-- AdminLTE CSS -->
-    <link rel="stylesheet" href="../assets/dist/css/adminlte.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/admin-lte@3.1.0/dist/css/adminlte.min.css">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
     <!-- jQuery (required for AdminLTE JavaScript) -->
-    <script src="../assets/dist/plugins/jquery/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
-<body class="hold-transition sidebar-mini">
-
-    <!-- Header Section -->
+<body class="hold-transition sidebar-mini layout-fixed">
     <div class="wrapper">
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-white">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">AdminLTE</a>
-
-                <!-- Navbar content (Right side: Logout) -->
-                <div class="ml-auto">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <!-- Logout Button -->
-                            <a class="nav-link btn btn-outline-light" href="logout.php">Logout</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- /.navbar -->
-    </div>
-    <!-- 
-</body>
-
-</html> -->

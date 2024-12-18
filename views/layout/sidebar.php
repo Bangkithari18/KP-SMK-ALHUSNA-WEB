@@ -5,32 +5,35 @@
     </a>
     <div class="sidebar">
         <nav class="mt-2">
-            <ul class="nav nav-pills nav-sidebar flex-column">
+            <ul class="nav nav-pills nav-sidebar flex-column" role="menu" data-widget="treeview" aria-expanded="false">
+                <!-- Master Menu -->
                 <li class="nav-item">
-                    <a href="dashboard.php" class="nav-link">
-                        <i class="nav-icon fas fa-tachometer-alt"></i>
-                        <p>Dashboard</p>
-                    </a>
-                </li>
-                <li class="nav-item has-treeview">
                     <a href="#" class="nav-link">
-                        <i class="nav-icon fas fa-users"></i>
+                        <i class="nav-icon fas fa-cogs"></i>
                         <p>
-                            Menu Master
-                            <i class="right fas fa-angle-left"></i> <!-- Icon for submenu toggle -->
+                            Master
+                            <i class="fas fa-angle-left right"></i>
                         </p>
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="master-info.php" class="nav-link">
-                                <i class="nav-icon fas fa-info-circle"></i>
-                                <p>Master Info</p>
+                            <a href="master.php" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Menu Master</p>
+                            </a>
+                        </li>
+                        <!-- Sub-menu for Master -->
+                        <li class="nav-item">
+                            <a href="submenu.php" class="nav-link">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Sub Menu Master</p>
                             </a>
                         </li>
                     </ul>
                 </li>
+                <!-- Other menu items -->
                 <li class="nav-item">
-                    <a href="logout.php" class="nav-link">
+                    <a href="../logout.php" class="nav-link">
                         <i class="nav-icon fas fa-sign-out-alt"></i>
                         <p>Logout</p>
                     </a>
